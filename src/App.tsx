@@ -1,12 +1,5 @@
-import { RouterProvider } from "react-router-dom";
-import { DesktopRouter } from "./Routes/MainRoutes";
-
 const App = () => {
-  return (
-    <div>
-      <RouterProvider router={DesktopRouter} />
-    </div>
-  );
+  return <div>App</div>;
 };
 
 export default App;
